@@ -21,7 +21,7 @@ const App = () => {
     <div className='main-container'>
       <div className='center-container'>
         <TodoInput addList={addList} />
-        <h1 className='apps-heading'>To-DO-List</h1>
+        <h1 className='apps-heading'>To-Do-List</h1>
         <hr  className='underline'/>
         {listTodo.map((listItem, i) => (
           <TodoList index={i} key={i} item={listItem}  deleteItem={deleteListItem}/>
