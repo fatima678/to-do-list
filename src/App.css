@@ -14,11 +14,16 @@ body{
 }
 .center-container{
   height: 500px;
-  width: 350px;
+  width: 300px;
 }
-.app-heading{
-  padding: 4px;
+.apps-heading{
+  padding: 10px;
   color: white;
+
+}
+.underline{
+  width: 250px;
+  color: aliceblue;
 }
 .input-box-todo{
   width: 200px;
@@ -35,4 +40,20 @@ body{
   margin-left: 5px;
   font-size: 18px;
   
+}
+.list-item{
+  list-style: none;
+  color: white;
+  margin-top: 20px;
+  background-color: green;
+  border: white;
+  width: 230px;
+  padding: 10px;
+  border-radius: 5px;
+ 
+}
+.icon{
+margin-left: 160px;
+  
+
 }
