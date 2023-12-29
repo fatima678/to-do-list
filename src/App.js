@@ -1,12 +1,18 @@
 
-import './App.css';
+import React from 'react'
+import './App.css'
+import TodoInput from './components/TodoInput'
 
-function App() {
+const App = () => {
   return (
-    <div>
+    <div className='main-container'>
+     <div className='center-container'>
+      <TodoInput/>
+     </div>
+
       
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
